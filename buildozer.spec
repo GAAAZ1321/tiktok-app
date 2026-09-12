@@ -5,7 +5,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg
 version = 0.1
-requirements = python3,kivy,yt-dlp,requests
+requirements = python3,kivy==2.2.1,yt-dlp,requests
 orientation = portrait
 fullscreen = 0
 android.permissions = WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE,INTERNET
