@@ -5,7 +5,7 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg
 version = 0.1
-requirements = python3,kivy,kivymd,yt-dlp,openssl,urllib3,certifi,ffmpeg
+requirements = python3,kivy==2.3.0,yt-dlp,requests,urllib3,certifi,idna,charset_normalizer
 orientation = portrait
 fullscreen = 0
 android.permissions = WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE,INTERNET
@@ -17,4 +17,3 @@ android.accept_sdk_license = True
 [buildozer]
 log_level = 2
 warn_on_root = 1
-
