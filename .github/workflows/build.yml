@@ -21,7 +21,7 @@ jobs:
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ccache git libffi-dev libssl-dev python3-dev build-essential libsqlite3-dev ffmpeg openjdk-17-jdk
+          sudo apt-get install -y ccache git libffi-dev libssl-dev python3-dev build-essential libsqlite3-dev ffmpeg openjdk-17-jdk autoconf automake libtool pkg-config zip unzip
           pip install --upgrade pip setuptools
           pip install buildozer "cython<3.0.0"
 
